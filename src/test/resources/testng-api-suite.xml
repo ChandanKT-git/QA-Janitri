@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+    <test name="API Tests">
+        <classes>
+            <!-- Authentication API Tests -->
+            <class name="com.janitri.tests.api.LoginApiTest" />
+            <class name="com.janitri.tests.api.RegistrationApiTest" />
+            
+            <!-- Data Validation Tests -->
+            <class name="com.janitri.tests.api.DataValidationApiTest" />
+            
+            <!-- Integration Tests -->
+            <class name="com.janitri.tests.api.IntegrationApiTest" />
+            
+            <!-- Performance Tests -->
+            <class name="com.janitri.tests.api.PerformanceApiTest" />
+            
+            <!-- Security Tests -->
+            <class name="com.janitri.tests.api.SecurityApiTest" />
+        </classes>
+    </test>
+</suite>
