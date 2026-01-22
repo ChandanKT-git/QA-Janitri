@@ -1,4 +1,4 @@
-# Janitri Dashboard Login Page Automation
+# Janitri Dashboard Login Page Automation  
 
 This project automates the testing of the Janitri Dashboard login page UI using Java, Selenium WebDriver, and the Page Object Model design pattern.
 
